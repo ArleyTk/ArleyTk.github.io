@@ -1,0 +1,77 @@
+h1{
+    background-color: rgb(255, 111, 212);
+    display:flex;
+    justify-content: center;
+}
+
+.imagenflex{
+    display:flex;
+  
+
+    background-color: rgb(251, 255, 0);
+
+    justify-content: space-between;
+    border-radius:50px 50px 0px 0px;
+    
+}
+.imagenflex2{
+    display:flex;
+    justify-content: space-between;
+
+    background-color: rgb(255, 255, 0);
+
+}
+
+.botones{
+    width: 100%;
+    display: flex;
+    
+    justify-content: space-between;
+    background-color: rgb(255, 174, 194);
+    border-color: blue;
+    
+}
+
+button{
+    width: 100%;
+    color:rgb(38, 0, 82);
+    background-color: rgb(255, 111, 212);
+}
+
+body {
+    background-color: #96b7ff;
+}
+
+p {
+    background-color: rgb(221, 255, 68);
+    padding: 35px;
+
+}
+
+h2 {
+    background-color: rgb(109, 182, 231);
+    padding: 30px;
+}
+
+@media screen and (max-width:480){
+    h1{
+        width: 100%;
+    }
+
+    .imagenflex{
+        width: 100%;
+    }
+
+    div{
+        width: 100%;
+    }
+
+    img{
+        width: 50px;
+        height: 50px;
+    }
+
+    .imagenflex2{
+        width: 100%;
+    }
+}
