@@ -74,4 +74,25 @@ h2 {
     .imagenflex2{
         width: 100%;
     }
+
+
+}
+
+.contenedor{
+    display:flex;
+    justify-content: center;
+
+    background-color: rgb(177, 164, 255);
+
+    
+
+
+}
+
+a{
+    border-color: black;
+    border-radius: 5px;
+}
+.hola{
+    background-color: aquamarine;
 }
